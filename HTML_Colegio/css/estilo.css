@@ -1,0 +1,47 @@
+body {
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center; 
+	font-family: "Lucida Bright", sans-serif;;
+}
+
+h1 {
+	color: #DDD;
+	border-style: groove;
+	border-width: 8px;
+	border-color: #DDD;
+	font-family: "Lucida Calligraphy", sans-serif;
+}
+
+h2 {
+	color: #CCC;
+	text-decoration: underline;
+}
+
+p {
+	color: #FFFFFF;
+}
+
+a {
+	color: #333;
+	border-style: solid;
+	border-color: #AAA;
+	background-color: #AAA;
+}
+
+table {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	width: 50%;
+}
+
+th {
+	background-color: #DDD;
+	font-style: italic;
+}
+
+.nombre {
+	text-align: left;
+	font-style: italic;
+}

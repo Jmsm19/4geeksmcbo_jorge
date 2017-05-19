@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contacto | Manten Developement</title>
+	<link rel="stylesheet" type="text/css" href="./css/estilos.css">
+</head>
+<body>
+	<header>
+
+		<a href="./index.html" class="link-logo">
+			<img src="./img/logo.png" alt="logo"> 
+			<p>dev</p>
+		</a>
+		
+		<nav id="nav-principal">
+			<ul class="contenedor">
+				<li><a href="./index.html">Inicio</a></li>
+				<li><a href="./productos.html">Productos</a></li>
+				<li><a href="./galeria.html">Galería</a></li>
+				<li><a href="./mision.html">Misión</a></li>				
+				<li><a class="activo" href="./contacto.html">Contacto</a></li>				
+			</ul>
+		</nav>
+	</header>
+
+	<content class="contacto">
+		<div class="contacto-izquierda">
+			<img src="./img/game_industry.png" alt="industria de video juegos">
+			<h2>Información de Contacto</h2>
+			<div class="informacion">
+				<p><strong>RIF:</strong> V20689293</p>
+				<p><strong>Dirección:</strong> Sector Villas del Desarrollo, calle #42</p>
+				<p><strong>Ciudad:</strong> Maracaibo, Estado Zulia</p>
+				<p><strong>País:</strong> Venezuela</p>
+				<p><strong>Teléfono:</strong> (+58) 424 6539972</p>
+				<p><strong>Email:</strong> Jorgemsm19@gmail.com</p>
+			</div>
+		</div>
+
+		<div class="contacto-derecha">
+			<h2>Formulario</h2>
+			<div class="formulario">
+				<form action="action_page.php" method="POST">
+					<fieldset>
+						<div class="input nombre">
+							<label>Nombre</label>
+							<input type="text" name="nombre" placeholder="Jorge">						
+						</div>
+						<div class="input apellido">
+							<label>Apellido</label>
+							<input type="text" name="apellido" placeholder="Soto">						
+						</div>
+						<div class="input email">
+							<label>Correo</label>
+							<input type="email" name="correo" placeholder="ejemplo@correo.com">						
+						</div>
+						<div class="input mensaje">
+							<label>Mensaje</label>
+							<textarea name="mensaje" placeholder="Yo quisiera..."></textarea>
+						</div>
+						<button type="submit">Enviar</button>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		
+	</content>
+
+	<footer>
+		<div class="contenedor">
+			<h3>Manten Developement, C.A.</h3>
+			<p class="copyright"><small>&copy; 2017 Manten Dev. All rights reserved.</small></p>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+PÁGINA EMPRESARIAL
+
+- Main folder
+
+- index.html >	Quiénes somos?
+				Productos
+				Contacto
+				Misión, Visión, Objetivos
+				Galería
+
+- Header, Footer, etc.
+
+- CSS central
+
+- Img folder
+
+
+REF: rediscteca.com.ve
+				
